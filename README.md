@@ -35,3 +35,12 @@ Analyse une chaîne de texte pour compter les occurrences de chaque mot unique. 
 ```excel
 =COMPTER_MOTS(texte; [exclure_mots_vides])
 ```
+
+### `GENERER_CODES_UNIQUES`
+
+Génère une liste verticale de codes alphanumériques aléatoires (A-Z, 0-9). Cette fonction utilise un algorithme basé sur l'objet `Set` pour garantir mathématiquement qu'aucun doublon n'est présent dans la liste générée. Idéal pour la création d'identifiants uniques, de numéros de série ou de coupons promotionnels.
+
+#### Syntaxe
+```excel
+=GENERER_CODES_UNIQUES(nombreCodes; longueur)
+```
