@@ -7,7 +7,7 @@
 
 /**
  * Additionne deux nombres.
- * * @param {number} nombreA - Le premier nombre.
+ * @param {number} nombreA - Le premier nombre.
  * @param {number} nombreB - Le deuxième nombre.
  * @return {number} La somme des deux nombres.
  * @customfunction
@@ -21,7 +21,7 @@ function AJOUTER_NOMBRES(nombreA, nombreB) {
 
 /**
  * Convertit des degrés Celsius en Fahrenheit.
- * * @param {number} celsius - La température en Celsius.
+ * @param {number} celsius - La température en Celsius.
  * @return {number} La température en Fahrenheit.
  * @customfunction
  */
@@ -32,7 +32,7 @@ function CONVERTIR_CELSIUS_FAHRENHEIT(celsius) {
 
 /**
  * Calcule des intérêts composés.
- * * @param {number} capital - Le montant initial (principal).
+ * @param {number} capital - Le montant initial (principal).
  * @param {number} taux - Le taux d'intérêt (en pourcentage).
  * @param {number} annees - La durée en années.
  * @return {number} Le montant final avec intérêts.
@@ -45,7 +45,7 @@ function INTERETS_COMPOSES(capital, taux, annees) {
 /**
  * Trouve la valeur maximale parmi une liste ou une plage.
  * Gère automatiquement les tableaux (plages de cellules).
- * * @param {...number|Array<Array<number>>} valeurs - Liste de nombres ou plage de cellules.
+ * @param {...number|Array<Array<number>>} valeurs - Liste de nombres ou plage de cellules.
  * @return {number} La valeur maximale.
  * @customfunction
  */
@@ -60,7 +60,7 @@ function TROUVER_MAX(...valeurs) {
 
 /**
  * Calcule le nombre de jours entre deux dates.
- * * @param {Date} dateDebut - La date de début.
+ * @param {Date} dateDebut - La date de début.
  * @param {Date} dateFin - La date de fin.
  * @return {number} Le nombre de jours d'écart.
  * @customfunction
@@ -75,7 +75,7 @@ function JOURS_ENTRE(dateDebut, dateFin) {
 
 /**
  * Convertit un nombre de minutes en chaîne lisible (heures et minutes).
- * * @param {number} minutes - Le nombre total de minutes.
+ * @param {number} minutes - Le nombre total de minutes.
  * @return {string} Format "X heure(s) et Y minute(s)".
  * @customfunction
  */
@@ -89,7 +89,7 @@ function MINUTES_EN_HEURES_TEXTE(minutes) {
 
 /**
  * Génère un identifiant unique universel (UUID).
- * * @return {string} Un UUID aléatoire.
+ * @return {string} Un UUID aléatoire.
  * @customfunction
  */
 function GENERER_UUID() {
@@ -98,7 +98,7 @@ function GENERER_UUID() {
 
 /**
  * Convertit une chaîne en "Title Case" (Première Lettre De Chaque Mot En Majuscule).
- * * @param {string} texte - Le texte à convertir.
+ * @param {string} texte - Le texte à convertir.
  * @return {string} Le texte converti.
  * @customfunction
  */
@@ -111,7 +111,7 @@ function VERS_TITRE_CASE(texte) {
 
 /**
  * Compte le nombre de mots dans une chaîne de caractères.
- * * @param {string} texte - Le texte à analyser.
+ * @param {string} texte - Le texte à analyser.
  * @return {number} Le nombre de mots.
  * @customfunction
  */
@@ -124,7 +124,7 @@ function COMPTER_MOTS(texte) {
 
 /**
  * Calcule l'Indice de Masse Corporelle (IMC / BMI).
- * * @param {number} poids - Poids en kilogrammes.
+ * @param {number} poids - Poids en kilogrammes.
  * @param {number} taille - Taille en mètres.
  * @return {number} L'indice IMC.
  * @customfunction
