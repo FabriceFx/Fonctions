@@ -16,7 +16,7 @@ Une collection de fonctions personnalisées optimisées pour Google Sheets, dév
 5. Sauvegardez le projet (Icône disquette ou `Ctrl + S`).
 6. Revenez à votre feuille de calcul, la fonction est prête à l'emploi.
 
-## b📚 Liste des fonctions
+## 📚 Liste des fonctions
 
 ### `MOYENNE_AVEC_CATEGORIE`
 
@@ -25,6 +25,7 @@ Calcule la moyenne d'une plage de données et renvoie un libellé textuel (caté
 #### Syntaxe
 ```excel
 =MOYENNE_AVEC_CATEGORIE(plage; seuil_bas; seuil_haut; [label_bas]; [label_moyen]; [label_haut])
+```
 
 ### `COMPTER_MOTS`
 
@@ -33,3 +34,4 @@ Analyse une chaîne de texte pour compter les occurrences de chaque mot unique. 
 #### Syntaxe
 ```excel
 =COMPTER_MOTS(texte; [exclure_mots_vides])
+```
