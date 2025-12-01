@@ -1,10 +1,27 @@
-# Fonctions personnalisées
+# Fonctions Personnalisées Google Sheets
 
 ![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script-green)
 ![Runtime](https://img.shields.io/badge/Google%20Apps%20Script-V8-green)
 ![Author](https://img.shields.io/badge/Auteur-Fabrice%20Faucheux-orange)
 
-## Listes à dispostion
+Une collection de fonctions personnalisées optimisées pour Google Sheets, développées avec le moteur V8 moderne. Ce projet vise à étendre les capacités natives du tableur avec des formules métier spécifiques.
 
-=MOYENNE_AVEC_CATEGORIE(A1:A10; 10; 15; "Insuffisant"; "Correct"; "Excellent")
+## 🚀 Installation
+
+1. Ouvrez votre feuille Google Sheets.
+2. Allez dans le menu **Extensions** > **Apps Script**.
+3. Copiez le contenu du fichier `Code.js` de ce dépôt.
+4. Collez-le dans l'éditeur de script (remplacez tout contenu existant).
+5. Sauvegardez le projet (Icône disquette ou `Ctrl + S`).
+6. Revenez à votre feuille de calcul, la fonction est prête à l'emploi.
+
+## b📚 Liste des fonctions
+
+### `MOYENNE_AVEC_CATEGORIE`
+
+Calcule la moyenne d'une plage de données et renvoie un libellé textuel (catégorie) en fonction de seuils définis.
+
+#### Syntaxe
+```excel
+=MOYENNE_AVEC_CATEGORIE(plage; seuil_bas; seuil_haut; [label_bas]; [label_moyen]; [label_haut])
