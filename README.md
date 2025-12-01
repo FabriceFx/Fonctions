@@ -1,4 +1,4 @@
-# Fonctions Personnalisées Google Sheets
+# Fonctions personnalisées Google Sheets
 
 ![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script-green)
@@ -25,3 +25,11 @@ Calcule la moyenne d'une plage de données et renvoie un libellé textuel (caté
 #### Syntaxe
 ```excel
 =MOYENNE_AVEC_CATEGORIE(plage; seuil_bas; seuil_haut; [label_bas]; [label_moyen]; [label_haut])
+
+### `COMPTER_MOTS`
+
+Analyse une chaîne de texte pour compter les occurrences de chaque mot unique. Cette fonction est idéale pour l'analyse sémantique, la création de nuages de mots ou l'audit de contenu.
+
+#### Syntaxe
+```excel
+=COMPTER_MOTS(texte; [exclure_mots_vides])
