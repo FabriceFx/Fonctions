@@ -44,3 +44,13 @@ Génère une liste verticale de codes alphanumériques aléatoires (A-Z, 0-9). C
 ```excel
 =GENERER_CODES_UNIQUES(nombreCodes; longueur)
 ```
+
+### `JOUR_SEMAINE`
+
+Convertit une date donnée en nom du jour de la semaine correspondant (en français).
+Cette fonction peut être utilisée directement dans une cellule Google Sheets.
+
+#### Syntaxe
+```excel
+=JOUR_SEMAINE(A1) (où A1 contient une date)
+```
